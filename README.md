@@ -17,10 +17,13 @@ This system is reliant upon quite a few locally-running services on Mac OS.
   * for Text to Speech (TTS), 100% free
   * Runs locally on Mac OS
 * [AudioRelay](https://audiorelay.net/)
+  * only necessary if you want to walk 100 ft away from your Mac and still use this system
+  * can be improved with a WiFi Mesh Network
   * for using phone (with or without bluetooth headphones) as a microphone
   * for using phone (with or without bluetooth headphones) as an audio output device
   * Runs locally on Mac OS
 * [Blackhole Audio](https://existential.audio/blackhole/)
+  * For use with AudioRelay only
   * for creating 0-latency audio devices on Mac (using both 2 and 16 channel devices)
   * 2 channel is for mic (phone to Mac)
   * 16 channel is for audio output (Mac to phone)
