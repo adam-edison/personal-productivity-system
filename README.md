@@ -22,6 +22,7 @@ This system is reliant upon quite a few locally-running services on Mac OS.
   * for using phone (with or without bluetooth headphones) as a microphone
   * for using phone (with or without bluetooth headphones) as an audio output device
   * Runs locally on Mac OS
+  * NOTE: super important to set up a Multi-Output Device and use that as the current audio device (Audio MIDI Setup)
 * [Blackhole Audio](https://existential.audio/blackhole/)
   * Only needed if using AudioRelay
   * for creating 0-latency audio devices on Mac (using both 2 and 16 channel devices)
@@ -39,3 +40,6 @@ This system is reliant upon quite a few locally-running services on Mac OS.
   * voice commands contained here
   * source of REST API requests to Talkback Node Server
   * source of REST API requests to Personal Productivity System
+
+
+See [screenshots](/screenshots/) for setup configuration details.
