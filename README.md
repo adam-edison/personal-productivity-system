@@ -23,11 +23,14 @@ This system is reliant upon quite a few locally-running services on Mac OS.
   * for using phone (with or without bluetooth headphones) as an audio output device
   * Runs locally on Mac OS
 * [Blackhole Audio](https://existential.audio/blackhole/)
-  * For use with AudioRelay only
+  * Only needed if using AudioRelay
   * for creating 0-latency audio devices on Mac (using both 2 and 16 channel devices)
-  * 2 channel is for mic (phone to Mac)
-  * 16 channel is for audio output (Mac to phone)
+  * 16 channel is for audio output (Mac to phone, Server on Mac device)
+  * 2 channel is for mic (phone to Mac, Player on Mac device)
   * Both run as virtual audio devices on Mac OS
+* [SwitchAudio](https://formulae.brew.sh/formula/switchaudio-osx)
+  * Only needed if using AudioRelay
+  * Used to switch audio output devices quickly
 * [Personal Productivity System](https://github.com/adam-edison/personal-productivity-system)
   * uses [Docker Desktop](https://www.docker.com/products/docker-desktop/) for local Postgres database
   * Runs locally on Mac OS
