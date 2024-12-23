@@ -1,4 +1,4 @@
-# Personal Productivity System
+# Personal Productivity System - Talon
 
 A full-blown productivity system using:
 
